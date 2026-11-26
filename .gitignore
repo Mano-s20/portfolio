@@ -1,0 +1,33 @@
+# Dependencies and build output
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+
+# Environment and secrets
+.env
+.env.*
+*.env
+*.local
+*.pem
+*.key
+
+# Generated verification artifacts
+recordings/
+screenshots/
+.playwright-mcp/
+.planning/
+_cv_extract/
+*.webm
+*.log
+
+# Private source material (contains data marked PRIVATE in README)
+CV%20Radiology.pdf
+CV_ANALYSIS.md
+
+# OS / editor temporary files
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+*~
